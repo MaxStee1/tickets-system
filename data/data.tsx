@@ -5,7 +5,6 @@ import {
   CheckCircledIcon,
   CircleIcon,
   CrossCircledIcon,
-  QuestionMarkCircledIcon,
   StopwatchIcon,
 } from "@radix-ui/react-icons"
 
@@ -16,55 +15,50 @@ export const labels = [
   },
   {
     value: "feature",
-    label: "Feature",
+    label: "Soporte",
   },
   {
     value: "documentation",
-    label: "Documentation",
+    label: "Misc.",
   },
 ]
 
 export const statuses = [
   {
-    value: "backlog",
-    label: "Backlog",
-    icon: QuestionMarkCircledIcon,
-  },
-  {
     value: "todo",
-    label: "Todo",
+    label: "Pendiente",
     icon: CircleIcon,
   },
   {
     value: "in progress",
-    label: "In Progress",
+    label: "En progreso",
     icon: StopwatchIcon,
   },
   {
     value: "done",
-    label: "Done",
+    label: "Listo",
     icon: CheckCircledIcon,
   },
   {
     value: "canceled",
-    label: "Canceled",
+    label: "Cancelado",
     icon: CrossCircledIcon,
   },
 ]
 
 export const priorities = [
   {
-    label: "Low",
+    label: "Baja",
     value: "low",
     icon: ArrowDownIcon,
   },
   {
-    label: "Medium",
+    label: "Media",
     value: "medium",
     icon: ArrowRightIcon,
   },
   {
-    label: "High",
+    label: "Alta",
     value: "high",
     icon: ArrowUpIcon,
   },

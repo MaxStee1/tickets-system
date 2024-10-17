@@ -40,25 +40,17 @@ export async function UserNav() {
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
           <DropdownMenuItem>
-            Profile
-            <DropdownMenuShortcut>⇧⌘P</DropdownMenuShortcut>
+            Perfil
           </DropdownMenuItem>
           <DropdownMenuItem>
-            Billing
-            <DropdownMenuShortcut>⌘B</DropdownMenuShortcut>
+            Ajustes
           </DropdownMenuItem>
-          <DropdownMenuItem>
-            Settings
-            <DropdownMenuShortcut>⌘S</DropdownMenuShortcut>
-          </DropdownMenuItem>
-          <DropdownMenuItem>New Team</DropdownMenuItem>
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
         <DropdownMenuItem
           onSelect={() => signOut({ callbackUrl: "/" })}
         >
-          Log out
-          <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
+          Cerrar sesión
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
