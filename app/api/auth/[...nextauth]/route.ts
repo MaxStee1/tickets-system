@@ -31,6 +31,7 @@ const authOptions = {
           id: user.id.toString(),
           name: user.name,
           email: user.email,
+          rut: user.rut,
         }
       },
     }),
